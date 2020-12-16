@@ -1,5 +1,7 @@
 # Object files
 *.o
+*.d
+*.ld
 *.ko
 *.obj
 *.elf
@@ -33,6 +35,8 @@
 .cproject
 .project
 .settings/
+.mxproject
+*.launch
 
 # Vagrant directory
 .vagrant/
@@ -43,3 +47,6 @@
 
 # Libraries
 /lib
+
+# Debug binaries
+Debug/
